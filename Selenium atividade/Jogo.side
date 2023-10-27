@@ -1,0 +1,214 @@
+{
+  "id": "a83e185e-f332-4fdf-afee-5f307fa6cd52",
+  "version": "2.0",
+  "name": "Exercício",
+  "url": "https://store.steampowered.com",
+  "tests": [{
+    "id": "c2c2138d-c87e-4768-9017-01777c6d5e34",
+    "name": "Comunidade",
+    "commands": [{
+      "id": "80beb1c4-ab9d-4f3b-a4ec-368a8b761d84",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3bc33c4b-a40c-4d0c-ba5a-a38ebc57c7df",
+      "comment": "",
+      "command": "open",
+      "target": "/?l=portuguese",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ab6b636-3785-4c4c-9cca-a37a4a1aa3f5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3009b8a2-dd2e-4baf-bf50-66fa549d3eb8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ea53fc1-ee17-48f1-85d0-483f76119ff5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=COMUNIDADE",
+      "targets": [
+        ["linkText=COMUNIDADE", "linkText"],
+        ["css=.menuitem:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'COMUNIDADE')]", "xpath:link"],
+        ["xpath=//div[@id='global_header']/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://steamcommunity.com/')])[9]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'COMUNIDADE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "acb10a84-8771-4972-9276-4bf6336a5d82",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=COMUNIDADE",
+      "targets": [
+        ["linkText=COMUNIDADE", "linkText"],
+        ["css=.menuitem:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'COMUNIDADE')]", "xpath:link"],
+        ["xpath=//div[@id='global_header']/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://steamcommunity.com/')])[9]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'COMUNIDADE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7ff631e-5490-457c-895b-0318cb8c1f05",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=COMUNIDADE",
+      "targets": [
+        ["linkText=COMUNIDADE", "linkText"],
+        ["css=.menuitem:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'COMUNIDADE')]", "xpath:link"],
+        ["xpath=//div[@id='global_header']/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://steamcommunity.com/')])[9]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'COMUNIDADE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f6e9f05-3236-4247-9f0b-948023800a64",
+      "comment": "",
+      "command": "click",
+      "target": "css=#apphub_Card_3059948368 .apphub_CardControls",
+      "targets": [
+        ["css=#apphub_Card_3059948368 .apphub_CardControls", "css:finder"],
+        ["xpath=//div[@id='apphub_Card_3059948368']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "90277e2e-1b69-4238-971e-095cf3e54a29",
+    "name": "Jogo",
+    "commands": [{
+      "id": "9c203879-1919-4f31-b0fe-6269f19bf705",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8119c591-9065-4183-8c01-1bceed55e3e5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e7cff9e-6073-4b1e-ad70-067d148f244a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focus > .capsule > .screenshot:nth-child(4)",
+      "targets": [
+        ["css=.focus > .capsule > .screenshot:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='home_maincap_v7']/div/a/div/div[4]", "xpath:idRelative"],
+        ["xpath=//a/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4551aaba-2d3b-461b-a7e0-e57dffe909fc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1126)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6657ec38-b023-4662-8b18-7d8b87c57628",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3600)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38a3eb6f-0d0c-4c2a-a01d-8233d1b6efa3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#franchise_app_block_content > .small_cap:nth-child(1) > .small_cap_img",
+      "targets": [
+        ["css=#franchise_app_block_content > .small_cap:nth-child(1) > .small_cap_img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.akamai.steamstatic.com/steam/apps/2050650/capsule_184x69.jpg?t=1696242724')]", "xpath:img"],
+        ["xpath=//div[@id='franchise_app_block_content']/a/img", "xpath:idRelative"],
+        ["xpath=//div[11]/div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15289cd6-ee48-45da-87c1-624bfd862eec",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,38)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37d78322-ba46-4eb8-9624-4bf9857abab7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#demoGameBtn span",
+      "targets": [
+        ["css=#demoGameBtn span", "css:finder"],
+        ["xpath=//div[@id='demoGameBtn']/a/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div/div/div[2]/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Baixar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8948c1c-f327-456c-8489-65564ce00ba8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#demoGameBtn span",
+      "targets": [
+        ["css=#demoGameBtn span", "css:finder"],
+        ["xpath=//div[@id='demoGameBtn']/a/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div/div/div[2]/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Baixar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7671f1b-8395-4d3e-b738-5ca8781b2325",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#demoGameBtn span",
+      "targets": [
+        ["css=#demoGameBtn span", "css:finder"],
+        ["xpath=//div[@id='demoGameBtn']/a/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div/div/div[2]/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Baixar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6ced197-a9fb-4c48-9fef-27df97a20380",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_blue:nth-child(2) > h5",
+      "targets": [
+        ["css=.btn_blue:nth-child(2) > h5", "css:finder"],
+        ["xpath=//a[2]/h5", "xpath:position"],
+        ["xpath=//h5[contains(.,'Saiba mais sobre o Steam e baixe-o')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "50547b3e-e104-4ae6-b59a-162d3d3bfa47",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c2c2138d-c87e-4768-9017-01777c6d5e34"]
+  }],
+  "urls": ["https://store.steampowered.com/"],
+  "plugins": []
+}
